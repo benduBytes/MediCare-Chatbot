@@ -33,7 +33,7 @@ hf_model = HuggingFaceHub(
 embeddings = download_hugging_face_embeddings()
 
 # Define Pinecone index
-index_name = "policybot"
+index_name = "medicalbots"
 
 # Load existing index
 docsearch = PineconeVectorStore.from_existing_index(
